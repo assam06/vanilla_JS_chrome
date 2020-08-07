@@ -1,3 +1,5 @@
+// ~2.7까지
+
 const title = document.querySelector("#title");
 
 const CLICKED_CLASS = "clicked";
