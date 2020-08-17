@@ -1,3 +1,4 @@
+const API_KEY = "8ffa056b63c82740b903083f19c16450";
 const COORDS = "coords";
 
 //5. 그리고 위치를 저장해야지
