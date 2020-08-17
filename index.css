@@ -1,12 +1,25 @@
 body {
-  background-color: grey;
+  background-color: #ecf0f1;
 }
 
-h1 {
-  color: white;
+.btn {
+  cursor: pointer;
 }
 
-/* id로 뭘 선택할 때는 #을 써서 선택해야해 */
+body {
+  color: #34495e;
+  font-size: 20px;
+}
 
-/* #title {
-} */
+.clicked {
+  color: #7f8c8d;
+}
+
+.form,
+.grettings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
