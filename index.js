@@ -1,15 +1,11 @@
-// ~2.7까지
+const title = document.getElementById("title");
 
-const title = document.querySelector("#title");
+title.innerHTML = "Hi! From JS";
+title.style.color = "red";
+console.dir(document);
 
-const CLICKED_CLASS = "clicked";
+/* console.log(title);-> 이건 콘솔에서 title에 해당하는
+html을 볼 것임*/
 
-function handleClick() {
-  title.classList.toggle(CLICKED_CLASS);
-}
-
-function init() {
-  title.addEventListener("click", handleClick);
-}
-
-init();
+/*js는 내 html에 있는 모든 요소(태그)를 가져와서 객체로 만들 것임
+객체는 console.log의 log처럼 점찍으면 쭉 나옴*/
